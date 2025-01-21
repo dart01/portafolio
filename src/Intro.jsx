@@ -1,5 +1,5 @@
 
-import fondo from './imagenes/fondo.png'; // Asegúrate de que la ruta sea correcta
+import fondo from './imagenes/fondo.jpg'; // Asegúrate de que la ruta sea correcta
 import githubIcon from './imagenes/github.png'; // Asegúrate de que la ruta sea correcta
 import linkedinIcon from './imagenes/linkedin.png'; // Asegúrate de que la ruta sea correcta
 
