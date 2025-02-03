@@ -19,7 +19,7 @@ const Proyecto02 = () => {
     const secondDivStyle = {
         backgroundColor: 'blue', // Example background for the second div
         width: '50%', // Each div takes half the width
-        display: 'flex', // Use flexbox to center content
+        display: 'block', // Stack content vertically
         alignItems: 'center', // Center vertically
         justifyContent: 'center', // Center horizontally
         color: 'white', // Text color

@@ -19,7 +19,7 @@ const Proyecto01 = () => {
     const secondDivStyle = {
         backgroundColor: 'blue', // Example background for the second div
         width: '50%', // Each div takes half the width
-        display: 'flex', // Use flexbox to center content
+        display: 'block', // Stack content vertically
         alignItems: 'center', // Center vertically
         justifyContent: 'center', // Center horizontally
         color: 'white', // Text color
@@ -33,6 +33,7 @@ const Proyecto01 = () => {
                 <div style={plantillaStyle}></div>
                 <div style={secondDivStyle}>
                      <h2>Contenido del Segundo Div</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur  .</p>
                 </div>
             </div>
             
