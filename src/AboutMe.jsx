@@ -55,7 +55,7 @@ const TechnologyItem = styled.div`
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px background-color:rgba(61, 207, 183, 0.46);
   }
 
   img {
