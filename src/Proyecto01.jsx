@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import plantilla from './imagenes/plantilla1.jpg';
+import plantilla from './imagenes/proyecto1.jpg';
 
 const ProjectContainer = styled.article`
   display: flex;
@@ -38,10 +38,10 @@ const ProjectImageContainer = styled.div`
 const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  min-height: 300px;
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease;
+  
 
   &:hover {
     transform: scale(1.03);
