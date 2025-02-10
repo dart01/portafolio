@@ -55,7 +55,7 @@ const ProjectContent = styled.div`
 
 const ProjectTitle = styled.h3`
   font-size: 2rem;
-  color: rgb(22, 22, 22);
+  color: white;
   margin-bottom: 1.5rem;
   position: relative;
 
@@ -73,7 +73,7 @@ const ProjectTitle = styled.h3`
 const ProjectDescription = styled.p`
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #666;
+  color: #DEDEDE;
   margin-bottom: 1.5rem;
 `;
 
@@ -112,8 +112,8 @@ const Proyecto02 = () => {
         <TechList>
           <TechItem>React</TechItem>
           <TechItem>Node.js</TechItem>
-          <TechItem>MongoDB</TechItem>
-          <TechItem>JWT</TechItem>
+          <TechItem>MySql</TechItem>
+          <TechItem>js</TechItem>
           <TechItem>Styled Components</TechItem>
         </TechList>
       </ProjectContent>
