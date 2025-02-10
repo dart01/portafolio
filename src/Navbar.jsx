@@ -9,7 +9,7 @@ const NavbarContainer = styled.nav`
     justify-content: center;
     border-radius: 50px;
     background-color: ${({ isScrolled }) => 
-        isScrolled ? 'rgba(22, 22, 22, 0.9)' : 'rgba(22, 22, 22, 0.5)'};
+        isScrolled ? '#rgbh(31, 27, 36, 1)' : '#1F1B24'};
     backdrop-filter: blur(5px);
     transition: all 0.3s ease;
     z-index: 1000;

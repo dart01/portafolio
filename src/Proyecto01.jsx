@@ -7,7 +7,7 @@ const ProjectContainer = styled.article`
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
-  background: white;
+  background: #1F1B24;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -95,10 +95,32 @@ const TechItem = styled.span`
     transform: scale(1.03);
   }
 `;
+const SectionTitle = styled.h2`
+  font-size: 2.5rem;
+  color: rgb(243,249,248);
+  margin-bottom: 2rem;
+  position: relative;
+  display: block;
+  text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color:rgb(61, 207, 182);
+  }
+`;
 
 const Proyecto01 = () => {
   return (
+    <>
+    <SectionTitle>🚀 Proyectos</SectionTitle>
     <ProjectContainer>
+      
       <ProjectImageContainer>
         <ProjectImage 
           src={plantilla} 
@@ -124,6 +146,7 @@ const Proyecto01 = () => {
         </TechList>
       </ProjectContent>
     </ProjectContainer>
+    </>
   );
 };
 

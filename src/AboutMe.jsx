@@ -47,15 +47,15 @@ const TechnologyItem = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
-  background: white;
-  border-radius: 10px;
+  background: #1F1B24;
+  border-radius: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  width: 120px;
+  width: 100px;
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px background-color:rgba(61, 207, 183, 0.46);
+    
   }
 
   img {
@@ -67,7 +67,7 @@ const TechnologyItem = styled.div`
 
   span {
     font-size: 1rem;
-    color: #333;
+    color: white;
     font-weight: 500;
   }
 `;
@@ -100,6 +100,7 @@ const AboutMe = () => {
           </TechnologyItem>
         ))}
       </TechnologyGrid>
+      
     </AboutMeContainer>
   );
 };

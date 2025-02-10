@@ -47,6 +47,25 @@ const Icon = styled.img`
     }
 `;
 
+const ContactButton = styled.a`
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    &:hover {
+        background-color: #333;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+`;
+
 const CVButton = styled.a`
     margin-top: 30px;
     padding: 12px 30px;
@@ -79,13 +98,22 @@ const Intro = () => {
                     <Icon src={linkedinIcon} alt="LinkedIn" />
                 </a>
             </SocialIcons>
-            <CVButton 
-                href="/path/to/cv.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer"
-            >
-                Descargar CV
-            </CVButton>
+            <div style={{ display: 'flex', gap: '20px', marginTop: '30px' }}>
+                <CVButton 
+                    href="/path/to/cv.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Descargar CV
+                </CVButton>
+                <ContactButton 
+                    href="/contact" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Contacta Me
+                </ContactButton>
+            </div>
         </IntroContainer>
     );
 };
