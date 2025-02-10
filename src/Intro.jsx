@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import fondo from './imagenes/fondo.jpg';
-import githubIcon from './imagenes/github.png';
-import linkedinIcon from './imagenes/linkedin.png';
+import { FaGithub, FaLinkedin, FaFigma } from 'react-icons/fa';
 
 const IntroContainer = styled.div`
     background-image: url(${fondo});
@@ -30,22 +29,7 @@ const IntroContainer = styled.div`
     }
 `;
 
-const SocialIcons = styled.div`
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-`;
 
-const Icon = styled.img`
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-`;
 
 const ContactButton = styled.a`
     margin-top: 30px;
@@ -85,6 +69,24 @@ const CVButton = styled.a`
     }
 `;
 
+const SocialIcons = styled.div`
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+    & svg {
+        color: white; // Cambia el color de los iconos a blanco
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+`;
+
 const Intro = () => {
     return (
         <IntroContainer>
@@ -92,10 +94,13 @@ const Intro = () => {
             <h2>Ingeniero Mecatrónico</h2>
             <SocialIcons>
                 <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                    <Icon src={githubIcon} alt="GitHub" />
+                    <FaGithub />
                 </a>
                 <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">
-                    <Icon src={linkedinIcon} alt="LinkedIn" />
+                    <FaLinkedin />
+                </a>
+                <a href="https://www.figma.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+                    <FaFigma />
                 </a>
             </SocialIcons>
             <div style={{ display: 'flex', gap: '20px', marginTop: '30px' }}>

@@ -107,7 +107,7 @@ const Proyecto03 = () => {
       </ProjectImageContainer>
       
       <ProjectContent>
-        <ProjectTitle>Servi Land Rover</ProjectTitle>
+        <ProjectTitle>Calculadora electronica</ProjectTitle>
         <ProjectDescription>
           Descripción detallada del proyecto. Aquí puedes incluir los objetivos, 
           tecnologías utilizadas y los resultados obtenidos. Ejemplo: 
@@ -117,8 +117,8 @@ const Proyecto03 = () => {
         
         <TechList>
           <TechItem>React</TechItem>
-          <TechItem>Node.js</TechItem>
-          <TechItem>MongoDB</TechItem>
+          <TechItem>Js</TechItem>
+          <TechItem>Python</TechItem>
           <TechItem>JWT</TechItem>
           <TechItem>Styled Components</TechItem>
         </TechList>
