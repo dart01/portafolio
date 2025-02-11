@@ -81,14 +81,26 @@ const AboutMe = () => {
     { name: 'C++', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg' },
     { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
     { name: 'HTML', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
-  ];
+    { name: 'Figma', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg' },
+    { name: 'Adobe XD', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/adobe/xd.svg' },
+    { name: 'Photoshop', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg' },
+    { name: 'Illustrator', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/illustrator/illustrator-line.svg' },
+];
+
 
   return (
     <AboutMeContainer>
       <SectionTitle>Sobre Mí</SectionTitle>
       <Description>
-        ¡Hola! Soy Diego Riaño, un ingeniero mecatrónico apasionado por el desarrollo de soluciones tecnológicas innovadoras.
-        Me especializo en crear aplicaciones web modernas y eficientes, combinando mis conocimientos en programación con mi formación en ingeniería.
+        ¡¡Hola! Soy Diego Riaño, ingeniero mecatrónico apasionado 
+        por crear soluciones tecnológicas innovadoras. Combino programación 
+        con React, Python, JavaScript y MySQL y diseño de experiencias de usuario (UI/UX) 
+        usando herramientas como Figma, Adobe XD, Photoshop e Illustrator.
+        Mi enfoque es simple: entender las necesidades del usuario y transformarlas 
+        en aplicaciones funcionales, visualmente atractivas y fáciles de usar. Me encanta 
+        fusionar lo técnico con lo creativo para construir experiencias digitales que marquen 
+        la diferencia. ¡Echa un vistazo a mi portafolio y veamos cómo puedo ayudarte a llevar 
+        tus ideas al siguiente nivel!
       </Description>
       
       <SectionTitle>🛠 Tecnologías</SectionTitle>

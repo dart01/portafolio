@@ -93,10 +93,10 @@ const Intro = () => {
             <h1>Diego Riaño</h1>
             <h2>Ingeniero Mecatrónico</h2>
             <SocialIcons>
-                <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/dart01" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/diego-ria%C3%B1o-329748277/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
                 <a href="https://www.figma.com/tu-usuario" target="_blank" rel="noopener noreferrer">
