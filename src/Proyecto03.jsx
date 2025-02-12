@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import plantilla from './imagenes/plantilla1.jpg';
+import plantilla from './imagenes/calculadora.jpg';
 import { FaGithub, FaFigma } from "react-icons/fa";
 
 const ProjectContainer = styled.article`

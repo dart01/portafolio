@@ -99,7 +99,7 @@ const Intro = () => {
                 <a href="https://www.linkedin.com/in/diego-ria%C3%B1o-329748277/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href="https://www.figma.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.figma.com/files/team/1438421613794182574/recents-and-sharing?fuid=1438421611594483995" target="_blank" rel="noopener noreferrer">
                     <FaFigma />
                 </a>
             </SocialIcons>
