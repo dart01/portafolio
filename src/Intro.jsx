@@ -1,12 +1,8 @@
 import styled from 'styled-components';
-import fondo from './imagenes/fondo.jpg';
+import FloatingFiguresBackground from './FloatingFiguresBackground';
 import { FaGithub, FaLinkedin, FaFigma } from 'react-icons/fa';
 
 const IntroContainer = styled.div`
-    background-image: url(${fondo});
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,7 +11,7 @@ const IntroContainer = styled.div`
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
-    z-index: 1;
+    overflow: hidden;
     
     &::after {
         content: '';
@@ -25,10 +21,9 @@ const IntroContainer = styled.div`
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.5);
-        z-index: -1;
+        z-index: 1;
     }
 `;
-
 
 
 const ContactButton = styled.a`
@@ -90,34 +85,40 @@ const SocialIcons = styled.div`
 const Intro = () => {
     return (
         <IntroContainer>
-            <h1>Diego Riaño</h1>
-            <h2>Ingeniero Mecatrónico</h2>
-            <SocialIcons>
-                <a href="https://github.com/dart01" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
-                </a>
-                <a href="https://www.linkedin.com/in/diego-ria%C3%B1o-329748277/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin />
-                </a>
-                <a href="https://www.figma.com/files/team/1438421613794182574/recents-and-sharing?fuid=1438421611594483995" target="_blank" rel="noopener noreferrer">
-                    <FaFigma />
-                </a>
-            </SocialIcons>
-            <div style={{ display: 'flex', gap: '20px', marginTop: '30px' }}>
-                <CVButton 
-                    href="/path/to/cv.pdf" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    Descargar CV
-                </CVButton>
-                <ContactButton 
-                    href="/contact" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                >
-                    Contacta Me
-                </ContactButton>
+            {/* Añadimos la animación de fondo */}
+            <FloatingFiguresBackground />
+            
+            {/* Contenido con z-index mayor para que esté por encima */}
+            <div style={{ position: 'relative', zIndex: 2 }}>
+                <h1>Diego Riaño</h1>
+                <h2>Ingeniero Mecatrónico</h2>
+                <SocialIcons>
+                    <a href="https://github.com/dart01" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/diego-ria%C3%B1o-329748277/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin />
+                    </a>
+                    <a href="https://www.figma.com/files/team/1438421613794182574/recents-and-sharing?fuid=1438421611594483995" target="_blank" rel="noopener noreferrer">
+                        <FaFigma />
+                    </a>
+                </SocialIcons>
+                <div style={{ display: 'flex', gap: '20px', marginTop: '30px' }}>
+                    <CVButton 
+                        href="/path/to/cv.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Descargar CV
+                    </CVButton>
+                    <ContactButton 
+                        href="/contact" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Contacta Me
+                    </ContactButton>
+                </div>
             </div>
         </IntroContainer>
     );
