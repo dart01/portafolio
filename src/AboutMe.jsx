@@ -89,7 +89,7 @@ const AboutMe = () => {
 
 
   return (
-    <AboutMeContainer>
+    <AboutMeContainer id="about">
       <SectionTitle>Sobre Mí</SectionTitle>
       <Description>
         ¡¡Hola! Soy Diego Riaño, ingeniero mecatrónico apasionado 

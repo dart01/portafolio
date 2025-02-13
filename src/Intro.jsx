@@ -10,6 +10,7 @@ const IntroContainer = styled.div`
     align-items: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center; // Center text horizontally
     position: relative;
     overflow: hidden;
     
@@ -68,6 +69,8 @@ const SocialIcons = styled.div`
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
 
     & svg {
         color: white; // Cambia el color de los iconos a blanco
@@ -78,13 +81,14 @@ const SocialIcons = styled.div`
 
         &:hover {
             transform: scale(1.1);
+            color: rgb(61, 207, 182);
         }
     }
 `;
 
 const Intro = () => {
     return (
-        <IntroContainer>
+        <IntroContainer id="home">
             {/* Añadimos la animación de fondo */}
             <FloatingFiguresBackground />
             

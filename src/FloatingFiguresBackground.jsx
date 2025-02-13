@@ -81,7 +81,7 @@ const Triangle = styled.div`
 const Circle = styled.div`
   position: absolute;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgb(61, 207, 183);
   animation: ${floatCircle} 8s infinite ease-in-out;
 
   &:nth-child(6) {

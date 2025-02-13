@@ -144,7 +144,7 @@ const SocialIcons = styled.div`
 const Proyecto01 = () => {
   return (
     <>
-      <SectionTitle>🚀 Proyectos</SectionTitle>
+      <SectionTitle id="projects">🚀 Proyectos</SectionTitle>
       <ProjectContainer>
         <ProjectImageContainer>
           <ProjectImage src={plantilla} alt="Descripción del proyecto" />

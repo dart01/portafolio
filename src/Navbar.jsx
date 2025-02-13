@@ -29,6 +29,17 @@ const NavList = styled.ul`
     gap: 2rem;
     margin: 0;
     padding: 0;
+
+     @media (max-width: 768px) {
+        display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')}; // Muestra u oculta la lista
+        flex-direction: column; // Cambia a columna en pantallas pequeñas
+        position: absolute; // Posiciona la lista
+        top: 60px; // Ajusta según la altura de la barra
+        left: 0;
+        right: 0;
+        background-color: #1F1B24; // Fondo para el menú
+        padding: 1rem 0; // Espaciado
+    }           
 `;
 
 const NavItem = styled.li`
@@ -54,8 +65,27 @@ const NavLink = styled.a`
     }
 `;
 
+const Hamburger = styled.div`
+    display: none; // Oculta por defecto
+
+    @media (max-width: 768px) {
+        display: flex; // Muestra en pantallas pequeñas
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    div {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(243,249,248);
+        margin: 4px 0; // Espaciado entre las líneas
+        transition: all 0.3s ease;
+    }
+`;
+
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isOpen, setIsOpen] = useState(false); // Estado para el menú
 
     useEffect(() => {
         const handleScroll = () => {
@@ -65,10 +95,19 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen); // Alterna el estado del menú
+    };
+
     return (
         <NavbarContainer isScrolled={isScrolled}>
             <NavContent>
-                <NavList>
+                <Hamburger onClick={toggleMenu}>
+                    <div />
+                    <div />
+                    <div />
+                </Hamburger>
+                <NavList isOpen={isOpen}>
                     <NavItem>
                         <NavLink href="#home">Inicio</NavLink>
                     </NavItem>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import plantilla from "./imagenes/plantilla1.jpg";
+import plantilla from "./imagenes/tienda.jpg";
 import { FaGithub, FaFigma } from "react-icons/fa";
 
 const ProjectContainer = styled.article`
@@ -32,6 +32,7 @@ const ProjectImageContainer = styled.div`
   @media (max-width: 768px) {
     min-width: unset;
     width: 100%;
+    order: 1; // Asegura que la imagen aparezca primero
   }
 `;
 
@@ -54,6 +55,10 @@ const ProjectContent = styled.div`
   flex-direction: column; // Ensure items stack vertically
   justify-content: center; // Center horizontally
   align-items: center; // Center vertically
+  
+  @media (max-width: 768px) {
+    order: 2; // Asegura que el contenido aparezca después de la imagen
+  }
 `;
 
 const ProjectTitle = styled.h3`
@@ -153,7 +158,7 @@ const Proyecto02 = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.figma.com/design/7svbo4l4k3JQIlNflSF8aa/Servi-Land-Rover?node-id=0-1&t=GzIMgcCIUofJvxVs-1"
+            href="https://www.figma.com/design/gmRbNyDPyWXNhDqyGzljxC/e-comerce?node-id=10-94&t=mOuGadjZvpuuaalA-1"
             target="_blank"
             rel="noopener noreferrer"
           >
