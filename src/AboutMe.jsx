@@ -31,7 +31,7 @@ const SectionTitle = styled.h2`
 const Description = styled.p`
   font-size: 1.1rem;
   line-height: 1.6;
-  color: rgb(243,249,248);;
+  color: rgba(255, 255, 255, 0.6); /* Cambiado a blanco con 60% de opacidad */
   max-width: 800px;
   margin: 0 auto 3rem;
 `;
@@ -93,15 +93,18 @@ const AboutMe = () => {
     <AboutMeContainer id="about">
       <SectionTitle>Sobre Mí</SectionTitle>
       <Description>
-        ¡¡Hola! me llamo Diego Riaño, ingeniero mecatrónico apasionado 
-        por crear soluciones tecnológicas innovadoras. Combino programación en
-        con React, Python, JavaScript y MySQL con diseño de experiencias de usuario (UI/UX) 
-        usando herramientas como Figma, Adobe XD, Photoshop e Illustrator.
-        Mi enfoque es simple: entender las necesidades del usuario y transformarlas 
-        en aplicaciones funcionales, visualmente atractivas y fáciles de usar. Disfruto 
-        fusionar lo técnico con lo creativo para construir experiencias digitales que marquen 
-        la diferencia. ¡Echa un vistazo a mi portafolio y veamos cómo puedo ayudarte a llevar 
-        tus ideas al siguiente nivel!
+        ¡¡Hola! me llamo Diego Riaño, ingeniero mecatrónico 
+        apasionado por crear soluciones tecnológicas innovadoras. 
+        Combino programación en con React, Python, JavaScript y 
+        MySQL con diseño de experiencias de usuario (UI/UX) usando 
+        herramientas como Figma, Adobe XD, Photoshop e Illustrator. 
+        Mi enfoque es simple: entender las necesidades del usuario 
+        y transformarlas en aplicaciones funcionales, visualmente 
+        atractivas y fáciles de usar. Disfruto fusionar lo técnico 
+        con lo creativo para construir experiencias digitales que 
+        marquen la diferencia. ¡Echa un vistazo a mi portafolio y 
+        veamos cómo puedo ayudarte a llevar tus ideas al siguiente 
+        nivel!
       </Description>
       
       <SectionTitle>🛠 Tecnologías</SectionTitle>

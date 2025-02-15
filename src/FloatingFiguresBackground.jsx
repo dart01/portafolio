@@ -36,7 +36,7 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: linear-gradient(135deg,rgba(31, 27, 36, 0.88),rgba(18, 18, 18, 0.12));
+  background: linear-gradient(135deg,rgba(44, 33, 58, 0.88),rgba(18, 18, 18, 0.12));
   z-index: 0;
 `;
 
@@ -47,7 +47,7 @@ const Triangle = styled.div`
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 40px solid rgba(255, 255, 255, 0.53);
+  border-bottom: 40px solid rgba(255, 255, 255, 0.83);
   animation: ${float} 10s infinite ease-in-out;
 
   &:nth-child(1) {
@@ -81,7 +81,7 @@ const Triangle = styled.div`
 const Circle = styled.div`
   position: absolute;
   border-radius: 50%;
-  background: rgb(61, 207, 183);
+  background: rgba(64, 240, 210, 0.96);
   animation: ${floatCircle} 8s infinite ease-in-out;
 
   &:nth-child(6) {

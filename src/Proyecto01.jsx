@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import plantilla from "./imagenes/proyecto1.jpg";
-import { FaGithub, FaFigma } from "react-icons/fa";
+import { FaGithub, FaFigma, FaBehance, FaLink } from "react-icons/fa";
 
 const ProjectContainer = styled.article`
   display: flex;
@@ -76,7 +76,7 @@ const ProjectTitle = styled.h3`
 const ProjectDescription = styled.p`
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #dedede;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.5rem;
 `;
 
@@ -135,8 +135,8 @@ const SocialIcons = styled.div`
   }
 
   & svg {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
 `;
@@ -181,6 +181,20 @@ const Proyecto01 = () => {
               rel="noopener noreferrer"
             >
               <FaFigma />
+            </a>
+            <a
+              href="https://www.behance.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaBehance />
+            </a>
+            <a
+              href="https://servi-land-rover.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLink />
             </a>
           </SocialIcons>
         </ProjectContent>

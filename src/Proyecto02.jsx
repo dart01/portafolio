@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import plantilla from "./imagenes/tienda.jpg";
-import { FaGithub, FaFigma } from "react-icons/fa";
+import { FaGithub, FaFigma, FaBehance, FaLink } from "react-icons/fa";
 
 const ProjectContainer = styled.article`
   display: flex;
@@ -82,7 +82,7 @@ const ProjectTitle = styled.h3`
 const ProjectDescription = styled.p`
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #dedede;
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.5rem;
   text-align: center; // Center the text
 `;
@@ -123,8 +123,8 @@ const SocialIcons = styled.div`
   }
 
   & svg {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
 `;
@@ -163,6 +163,20 @@ const Proyecto02 = () => {
             rel="noopener noreferrer"
           >
             <FaFigma />
+          </a>
+          <a
+            href="https://www.behance.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaBehance />
+          </a>
+          <a
+            href="https://e-comerce-rust.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLink />
           </a>
         </SocialIcons>
       </ProjectContent>
