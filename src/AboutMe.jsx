@@ -42,6 +42,9 @@ const TechnologyGrid = styled.div`
   gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
+
+
+  }
 `;
 
 const TechnologyItem = styled.div`
