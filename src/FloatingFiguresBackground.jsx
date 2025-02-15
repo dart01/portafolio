@@ -36,7 +36,7 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: linear-gradient(135deg,rgba(31, 27, 36, 0.88),rgba(18, 18, 18, 0.68));
+  background: linear-gradient(135deg,rgba(31, 27, 36, 0.88),rgba(18, 18, 18, 0.12));
   z-index: 0;
 `;
 
