@@ -9,11 +9,12 @@ const NavbarContainer = styled.nav`
     justify-content: center;
     border-radius: 50px;
     background-color: ${({ isScrolled }) => 
-        isScrolled ? '#rgbh(31, 27, 36, 1)' : '#1F1B24'};
+        isScrolled ? '#rgbh(31, 27, 36, 1)' : '#1E1E1E'};
     backdrop-filter: blur(5px);
     transition: all 0.3s ease;
     z-index: 1000;
     padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); // Añadir sombra
 `;
 
 const NavContent = styled.div`
@@ -37,7 +38,7 @@ const NavList = styled.ul`
         top: 60px; // Ajusta según la altura de la barra
         left: 0;
         right: 0;
-        background-color: #1F1B24; // Fondo para el menú
+        background-color: #292929; // Fondo para el menú
         padding: 1rem 0; // Espaciado
     }           
 `;

@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import xd from './imagenes/xd.png';
 
 const AboutMeContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 2rem;
   text-align: center;
+  
 `;
 
 const SectionTitle = styled.h2`
@@ -47,12 +49,12 @@ const TechnologyItem = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
-  background: #1F1B24;
+  background: #1E1E1E;
   border-radius: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   width: 100px;
-
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
   &:hover {
     transform: translateY(-5px);
     
@@ -82,22 +84,21 @@ const AboutMe = () => {
     { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
     { name: 'HTML', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
     { name: 'Figma', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg' },
-    { name: 'Adobe XD', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/adobe/xd.svg' },
-    { name: 'Photoshop', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg' },
+    { name: 'Adobe XD', icon: xd },
+    { name: 'Photoshop', icon: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg' },
     { name: 'Illustrator', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/illustrator/illustrator-line.svg' },
-];
-
+  ];
 
   return (
     <AboutMeContainer id="about">
       <SectionTitle>Sobre Mí</SectionTitle>
       <Description>
-        ¡¡Hola! Soy Diego Riaño, ingeniero mecatrónico apasionado 
-        por crear soluciones tecnológicas innovadoras. Combino programación 
-        con React, Python, JavaScript y MySQL y diseño de experiencias de usuario (UI/UX) 
+        ¡¡Hola! me llamo Diego Riaño, ingeniero mecatrónico apasionado 
+        por crear soluciones tecnológicas innovadoras. Combino programación en
+        con React, Python, JavaScript y MySQL con diseño de experiencias de usuario (UI/UX) 
         usando herramientas como Figma, Adobe XD, Photoshop e Illustrator.
         Mi enfoque es simple: entender las necesidades del usuario y transformarlas 
-        en aplicaciones funcionales, visualmente atractivas y fáciles de usar. Me encanta 
+        en aplicaciones funcionales, visualmente atractivas y fáciles de usar. Disfruto 
         fusionar lo técnico con lo creativo para construir experiencias digitales que marquen 
         la diferencia. ¡Echa un vistazo a mi portafolio y veamos cómo puedo ayudarte a llevar 
         tus ideas al siguiente nivel!

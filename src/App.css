@@ -1,0 +1,25 @@
+.app-container {
+  position: relative;
+  z-index: 0;
+}
+
+.main-container {
+  position: relative;
+  z-index: 0;
+}
+
+.background-particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Asegurarse de que el footer esté por encima de las partículas */
+footer {
+  position: relative;
+  z-index: 1;
+}

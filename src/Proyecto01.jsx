@@ -8,12 +8,12 @@ const ProjectContainer = styled.article`
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
-  background: #1f1b24;
+  background: #1E1E1E;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   align-items: center;
-
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
   &:hover {
     transform: translateY(-5px);
   }
