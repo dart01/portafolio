@@ -47,7 +47,7 @@ const Triangle = styled.div`
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 40px solid rgba(255, 255, 255, 0.83);
+  border-bottom: 40px solid rgba(255, 255, 255, 0.56);
   animation: ${float} 10s infinite ease-in-out;
 
   &:nth-child(1) {

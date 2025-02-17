@@ -86,10 +86,12 @@ const SocialIcons = styled.div`
     height: 40px;
     cursor: pointer;
     transition: transform 0.2s ease;
+    
 
     &:hover {
       transform: scale(1.1);
       color: rgb(61, 207, 182);
+      
     }
   }
 `;
@@ -133,14 +135,14 @@ const Intro = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://www.figma.com/files/team/1438421613794182574/recents-and-sharing?fuid=1438421611594483995"
+              href="https://www.figma.com/@dart01"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFigma />
             </a>
             <a
-              href="https://www.behance.net/diego"
+              href="https://www.behance.net/diegoriao3"
               target="_blank"
               rel="noopener noreferrer"
             >
