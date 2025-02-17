@@ -62,10 +62,10 @@ const Footer = () => {
                 </Text>
                 
                 <LinkContainer>
-                    <SocialLink href="https://github.com/tuusuario" target="_blank" rel="noopener">
+                    <SocialLink href="https://github.com/dart01" target="_blank" rel="noopener">
                         GitHub
                     </SocialLink>
-                    <SocialLink href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener">
+                    <SocialLink href="https://www.linkedin.com/in/diego-ria%C3%B1o-329748277/" target="_blank" rel="noopener">
                         LinkedIn
                     </SocialLink>
                 </LinkContainer>
