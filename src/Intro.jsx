@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import FloatingFiguresBackground from "./FloatingFiguresBackground";
+/*import FloatingFiguresBackground from "./FloatingFiguresBackground";*/
+import Particles from "./Particles";
+
 import { FaGithub, FaLinkedin, FaFigma, FaBehance } from "react-icons/fa";
 import foto from "./imagenes/foto.jpg";
 
@@ -99,9 +101,7 @@ const SocialIcons = styled.div`
 const Intro = () => {
   return (
     <IntroContainer id="home">
-      {/* Añadimos la animación de fondo <FloatingFiguresBackground /> */}
-      <FloatingFiguresBackground />
-      {/* Contenido con z-index mayor para que esté por encima */}
+      
       <div
         style={{
           position: "relative",
@@ -157,13 +157,13 @@ const Intro = () => {
             >
               Descargar CV
             </CVButton>
-            <ContactButton
+           {/* <ContactButton
               href="/contact"
               target="_blank"
               rel="noopener noreferrer"
             >
               Contacta Me
-            </ContactButton>
+            </ContactButton>*/}
           </div>
         </div>
       </div>
