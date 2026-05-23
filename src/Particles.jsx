@@ -1,9 +1,14 @@
 import { useEffect, useRef } from "react";
 import { Renderer, Camera, Geometry, Program, Mesh } from "ogl";
 
-import './Particles.css'; // Asegurar que los estilos se apliquen
+
 
 const defaultColors = ["#ffffff", "#ffffff", "#ffffff"];
+
+
+const particlesStyle = document.createElement('style');
+particlesStyle.textContent = `.particles-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }`;
+document.head.appendChild(particlesStyle);
 
 const hexToRgb = (hex) => {
   hex = hex.replace(/^#/, "");
