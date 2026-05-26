@@ -1,7 +1,6 @@
 import robotic from "./imagenes/robotic.png";
 import proyecto1 from "./imagenes/proyecto1.jpg";
 import ma from "./imagenes/ma.png";
-import calculadora from "./imagenes/calculadora.jpg";
 import shopmind from "./imagenes/shopmind.png";
 import askdocs from "./imagenes/askdocs.png";
 import vision from "./imagenes/vision.png";

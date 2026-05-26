@@ -134,20 +134,7 @@ const Intro = () => {
             >
               <FaLinkedin />
             </a>
-            <a
-              href="https://www.figma.com/@dart01"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFigma />
-            </a>
-            <a
-              href="https://www.behance.net/diegoriao3"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaBehance />
-            </a>
+            
           </SocialIcons>
           <div style={{ display: "flex", justifyContent: "center", gap: "10px", marginTop: "5px" }}>
             <CVButton
