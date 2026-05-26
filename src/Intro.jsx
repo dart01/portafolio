@@ -118,7 +118,7 @@ const Intro = () => {
         />
         <div style={{ textAlign: "center" }}>
           <h1>¡Bienvenido a mi portafolio!</h1>
-          <h3>Soy Diego, ingeniero y desarollador web (UX/UI).</h3>
+          <h3>Soy Diego, ingeniero y desarollador web </h3>
           <SocialIcons>
             <a
               href="https://github.com/dart01"

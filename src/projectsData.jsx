@@ -1,5 +1,5 @@
 import robotic from "./imagenes/robotic.png";
-import proyecto1 from "./imagenes/proyecto1.jpg";
+import taller from "./imagenes/taller.png";
 import ma from "./imagenes/ma.png";
 import shopmind from "./imagenes/shopmind.png";
 import askdocs from "./imagenes/askdocs.png";
@@ -25,7 +25,7 @@ const projects = [
     title: "Servi Land Rover",
     description:
       "Landing page para taller automotriz donde se muestran y ofrecen servicios para facilitar a posibles clientes comunicarse.",
-    image: proyecto1,
+    image: taller,
     imageLeft: false,
     tech: ["React", "JavaScript", "Vercel", "Vite", "Styled Components"],
     links: [
